@@ -176,7 +176,7 @@ button:hover {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -186,11 +186,29 @@ button:hover {
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center;
 }
 
 iframe {
     border-radius: 8px;
     border: 1px solid #ddd;
     margin-top: 0.5rem;
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
 }
